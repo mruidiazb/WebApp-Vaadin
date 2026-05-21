@@ -102,7 +102,7 @@ public class ProveedoresView extends HorizontalLayout {
         btnNuevo.addClickListener(e -> clearFormForNew());
 
         Button btnConsultarUno = new Button("Consultar Uno", new Icon(VaadinIcon.SEARCH));
-        btnConsultarUno.addThemeVariants(ButtonVariant.LUMO_SUCCESS);
+        btnConsultarUno.addThemeVariants(ButtonVariant.LUMO_PRIMARY);
         btnConsultarUno.addClickListener(e -> showConsultarUnoDialog());
 
         Button btnConsultarTodos = new Button("Consultar Todos", new Icon(VaadinIcon.REFRESH));
